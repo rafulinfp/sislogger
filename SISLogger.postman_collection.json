@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "995c105f-1037-40b1-a1fe-d7f60707cdaf",
+		"name": "SISLogger",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Healthcheck",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"timestamp\": \"2021-11-15T04:36:17.4443787+00:00\",\r\n  \"messages\": \"This is a test Usage message\",\r\n  \"product\": \"TestProduct\",\r\n  \"layer\": \"Usage\",\r\n  \"location\": \"null\",\r\n  \"hostname\": \"XPS-15\",\r\n  \"userId\":\"null\",\r\n  \"userName\":\"Rafael\",\r\n  \"customerId\": 0,\r\n  \"customerName\": \"null\",\r\n  \"elapsedMillisenconds\": 0,\r\n  \"exception\": null,\r\n  \"correlationId\": \"null\",\r\n  \"additionalInfo\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usage Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"timestamp\": \"2021-11-15T04:36:17.4443787+00:00\",\r\n  \"messages\": \"This is a test Usage message\",\r\n  \"product\": \"Postman\",\r\n  \"layer\": \"Usage\",\r\n  \"location\": \"null\",\r\n  \"hostname\": \"XPS-15\",\r\n  \"userId\":\"null\",\r\n  \"userName\":\"Rafael\",\r\n  \"customerId\": 0,\r\n  \"customerName\": \"null\",\r\n  \"elapsedMillisenconds\": 0,\r\n  \"exception\": null,\r\n  \"correlationId\": \"null\",\r\n  \"additionalInfo\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Usage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Usage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Error Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"timestamp\": \"2021-11-15T04:36:17.4443787+00:00\",\r\n  \"messages\": \"This is a test Usage message\",\r\n  \"product\": \"TestProduct\",\r\n  \"layer\": \"Usage\",\r\n  \"location\": \"null\",\r\n  \"hostname\": \"XPS-15\",\r\n  \"userId\":\"null\",\r\n  \"userName\":\"Rafael\",\r\n  \"customerId\": 0,\r\n  \"customerName\": \"null\",\r\n  \"elapsedMillisenconds\": 0,\r\n  \"exception\": null,\r\n  \"correlationId\": \"null\",\r\n  \"additionalInfo\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Usage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Usage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Diagnostic Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"timestamp\": \"2021-11-15T04:36:17.4443787+00:00\",\r\n  \"messages\": \"This is a test Usage message\",\r\n  \"product\": \"TestProduct\",\r\n  \"layer\": \"Usage\",\r\n  \"location\": \"null\",\r\n  \"hostname\": \"XPS-15\",\r\n  \"userId\":\"null\",\r\n  \"userName\":\"Rafael\",\r\n  \"customerId\": 0,\r\n  \"customerName\": \"null\",\r\n  \"elapsedMillisenconds\": 0,\r\n  \"exception\": null,\r\n  \"correlationId\": \"null\",\r\n  \"additionalInfo\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Usage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Usage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Performance Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"timestamp\": \"2021-11-15T04:36:17.4443787+00:00\",\r\n  \"messages\": \"This is a test Usage message\",\r\n  \"product\": \"TestProduct\",\r\n  \"layer\": \"Usage\",\r\n  \"location\": \"null\",\r\n  \"hostname\": \"XPS-15\",\r\n  \"userId\":\"null\",\r\n  \"userName\":\"Rafael\",\r\n  \"customerId\": 0,\r\n  \"customerName\": \"null\",\r\n  \"elapsedMillisenconds\": 0,\r\n  \"exception\": null,\r\n  \"correlationId\": \"null\",\r\n  \"additionalInfo\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Usage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Usage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

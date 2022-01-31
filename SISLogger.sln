@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SISLogger.Core", "SISLogger.Core\SISLogger.Core.csproj", "{8EC4EB3E-AEA5-44B6-9698-48ED9686B496}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SISLogger.Data", "SISLogger.Data\SISLogger.Data.csproj", "{74710C6A-8F8A-486F-B1AA-1AAC1FC76181}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SISLogger.Api", "SISLogger.Api\SISLogger.Api.csproj", "{E9C712F0-9A49-4D8C-ADA1-B776C54359EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SISLogger.Console", "SISLogger.Console\SISLogger.Console.csproj", "{74BDD9E2-3AD2-4819-A823-D228EB8CFC24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{997AB2FC-B0EB-4725-A79C-965544D8DB8F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		ReadMe.md = ReadMe.md
+		SISLogger.postman_collection.json = SISLogger.postman_collection.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EC4EB3E-AEA5-44B6-9698-48ED9686B496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC4EB3E-AEA5-44B6-9698-48ED9686B496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC4EB3E-AEA5-44B6-9698-48ED9686B496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC4EB3E-AEA5-44B6-9698-48ED9686B496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74710C6A-8F8A-486F-B1AA-1AAC1FC76181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74710C6A-8F8A-486F-B1AA-1AAC1FC76181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74710C6A-8F8A-486F-B1AA-1AAC1FC76181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74710C6A-8F8A-486F-B1AA-1AAC1FC76181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C712F0-9A49-4D8C-ADA1-B776C54359EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C712F0-9A49-4D8C-ADA1-B776C54359EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C712F0-9A49-4D8C-ADA1-B776C54359EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C712F0-9A49-4D8C-ADA1-B776C54359EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BDD9E2-3AD2-4819-A823-D228EB8CFC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BDD9E2-3AD2-4819-A823-D228EB8CFC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BDD9E2-3AD2-4819-A823-D228EB8CFC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BDD9E2-3AD2-4819-A823-D228EB8CFC24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6778A85-F42A-4181-BBB1-DF784AB208F5}
+	EndGlobalSection
+EndGlobal
